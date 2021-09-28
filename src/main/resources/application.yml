@@ -1,0 +1,69 @@
+server:
+  port: 8080
+
+management:
+  server:
+    port: 8081
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+  trace:
+    http:
+      include: RESPONSE_HEADERS,REQUEST_HEADERS
+
+  ## Micrometer config
+  ## https://micrometer.io/docs/registry/cloudwatch
+  ## https://docs.awspring.io/spring-cloud-aws/docs/current/reference/html/index.html#cloudwatch-metrics
+  metrics:
+    use-global-registry: false
+    enable:
+      process: false
+      jdbc: false
+      logback: false
+      spring: false
+      tomcat: false
+      hikaricp: false
+      jvm: true
+      system: true
+    export:
+      # https://github.com/micrometer-metrics/micrometer/blob/main/implementations/micrometer-registry-cloudwatch2/src/main/java/io/micrometer/cloudwatch2/CloudWatchConfig.java
+      # https://docs.awspring.io/spring-cloud-aws/docs/current/reference/html/index.html#cloudwatch-metrics
+      cloudwatch:
+        enabled: true
+        namespace: Ore
+        batchSize: 10
+        step: 1m
+
+spring:
+  metrics:
+    export:
+      enabled: false
+
+cloud:
+  aws:
+    stack:
+      auto: false
+    region:
+      auto: false
+      static: ap-northeast-1
+    instance:
+      data:
+        enabled: false
+
+info:
+  app:
+    name: ore
+    description: これはサンプルアプリです
+  runtime:
+    vendor: ${java.specification.vendor}
+    vm-name: ${java.vm.name}
+    runtime-version: ${java.runtime.version}
+
+logging:
+  level:
+    com.amazonaws.internal.InstanceMetadataServiceResourceFetcher: ERROR
+    com.amazonaws.util.EC2MetadataUtils: ERROR

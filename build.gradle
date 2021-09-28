@@ -1,0 +1,77 @@
+plugins {
+  id 'org.springframework.boot' version '2.5.5'
+  id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+  id 'com.google.cloud.tools.jib' version '3.1.4'
+  id 'java'
+  id 'idea'
+  id 'net.ltgt.errorprone' version '2.0.2'
+  id 'com.diffplug.gradle.spotless' version '4.5.1'
+}
+
+group = 'ore.exam.actuatorexam'
+version = '1.0.0-SNAPSHOT'
+
+java {
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(17)
+  }
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'org.springframework.boot:spring-boot-starter-actuator'
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  // implementation 'io.micrometer:micrometer-registry-cloudwatch2:latest.release'
+  implementation 'io.micrometer:micrometer-registry-cloudwatch:latest.release'
+  implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE'
+  errorprone('com.google.errorprone:error_prone_core:2.9.0')
+}
+
+tasks.withType(JavaCompile).configureEach {
+  options.errorprone.disableWarningsInGeneratedCode = true
+}
+
+spotless {
+  java {
+    googleJavaFormat()
+    trimTrailingWhitespace()
+  }
+}
+
+compileJava.dependsOn 'spotlessApply'
+
+// https://github.com/GoogleContainerTools/jib/tree/master/jib-gradle-plugin#extended-usage
+jib {
+  from {
+    image = 'amazoncorretto:17-alpine'
+  }
+  to {
+    image = 'ore/actuatorexam'
+    tags = ['latest']
+  }
+  container {
+    jvmFlags = [
+      '-server',
+      '-Xms512m',
+      '-Xdebug',
+      '-XX:+PrintFlagsFinal',
+      '-XshowSettings:vm',
+      '-Dsecurerandom.source=file:/dev/./urandom',
+      '-Djava.security.egd=file:/dev/./urandom'
+    ]
+    mainClass = 'ore.exam.actuatorexam.app.App'
+    ports = ['8080', '8081']
+    environment = [
+      'LANG': 'ja_JP.UTF-8'
+    ]
+    format = 'OCI'
+  }
+}
+
+// https://dev.classmethod.jp/articles/git-commit-for-spring-actuator-info/
+springBoot {
+  buildInfo()
+}

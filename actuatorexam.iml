@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output/>
+    <orderEntry type="inheritedJdk"/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    </content>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.5.5/6b2a78821cd64325d16c3551717c59b8e8e72b53/spring-boot-starter-actuator-2.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.5.5/5c2f9fd55fdfa3fbd03ed23cf4e4c5d1c21172b5/spring-boot-starter-actuator-2.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.5.5/c09bf133d22c865d6ce4d67ff48aece7ff1defb1/spring-boot-starter-web-2.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.5.5/39d0c86bf348e7e2be2c21a467d4cced5fc640f7/spring-boot-starter-web-2.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-registry-cloudwatch/1.7.4/c909d125c41e36db88734d6cff62b8223f573f91/micrometer-registry-cloudwatch-1.7.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-registry-cloudwatch/1.7.4/78ff9f6c86c00355b4d4e5589785241412908ebd/micrometer-registry-cloudwatch-1.7.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-aws/2.2.6.RELEASE/9d7c330b3f4aa477df2db27dd875a0e63a49456/spring-cloud-starter-aws-2.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.5.5/11923b2b5ca33c6c849952ed1bd47a77c9ec0a85/spring-boot-starter-json-2.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.5.5/44fef7ad81cd505399b56620ecb1ea00d030d6fa/spring-boot-starter-json-2.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.5.5/8657d6f1f00002e8a839fc35fe2f2cd7fc09b72a/spring-boot-starter-2.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.5.5/4c687a42c4a3c6ae57be684ebe6eb88c87162521/spring-boot-starter-2.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.5.5/f5b9d034f74528eb503fbd768170220ab48e4f4c/spring-boot-actuator-autoconfigure-2.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.5.5/e3c50e51b4b766895a7a463839cecd48f63d0148/spring-boot-actuator-autoconfigure-2.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.7.4/cdcf50124c3549576fea3d54391c7c3163915e0d/micrometer-core-1.7.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.7.4/3eb8b16e652ecb2d5b2270247b58c76d0c370f4f/micrometer-core-1.7.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.5.5/3fb58add8060ff5a6a17e08eeabca1e823c2f04a/spring-boot-starter-tomcat-2.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.5.5/860a4d212ade1e9272c7a55d9334a741c8f023dc/spring-boot-starter-tomcat-2.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.3.10/d8a26ccc0fb4788c05eca148be8ee987d554a9d2/spring-webmvc-5.3.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.3.10/5d18866080e3be2b3ca103291fb1f3fa2da20257/spring-webmvc-5.3.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.10/31984cef4b5d38f2711cf870994c43e89619ff4e/spring-web-5.3.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.10/63a2c8efa9006c0f14743cbcaab2c62a43ec5f0e/spring-web-5.3.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudwatch/1.11.1034/b694811045e23f4e9501853675ac6681d9c6165b/aws-java-sdk-cloudwatch-1.11.1034.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudwatch/1.11.1034/3c9e255c9d4ccd1636152e0c01b19328a9f5b92b/aws-java-sdk-cloudwatch-1.11.1034-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-aws-autoconfigure/2.2.6.RELEASE/e443d11a6714e24da9f57c18f55a122836f68483/spring-cloud-aws-autoconfigure-2.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-aws-autoconfigure/2.2.6.RELEASE/accc5f4548a5cfb8037fcee2c7d5a4a3df1f3ccd/spring-cloud-aws-autoconfigure-2.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-aws-context/2.2.6.RELEASE/e26fddbe55135d8ff23e9620e22eda649f5772ea/spring-cloud-aws-context-2.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-aws-context/2.2.6.RELEASE/ad05d93373bcb0b653b46ce536eff071e062dff6/spring-cloud-aws-context-2.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-aws-core/2.2.6.RELEASE/34b42c1a931b1cb32750a33dfaa19fcbc9828b05/spring-cloud-aws-core-2.2.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-aws-core/2.2.6.RELEASE/2fee9841b77f7d5222e7282e8846dcacde42bccc/spring-cloud-aws-core-2.2.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.5.5/2731a074593f6b1089060a4af54ef8eee464d7f0/spring-boot-starter-logging-2.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.5.5/46986cddd8a3b707bd46a784e5edc5f97cfd9123/spring-boot-starter-logging-2.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.6/b09efa852337fa0dd9859614389eec58dc287116/logback-classic-1.2.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.6/c4aea6a11cb3d22019ea55c9a53ca465afebb344/logback-classic-1.2.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.14.1/ce8a86a3f50a4304749828ce68e7478cafbc8039/log4j-to-slf4j-2.14.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.14.1/54c937b22e4c4025c1f85482f92d4cf87b2d0972/log4j-to-slf4j-2.14.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.32/8a055c04ab44e8e8326901cadf89080721348bdb/jul-to-slf4j-1.7.32.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.32/d03fa92a2a508b5595b896b93f13f04bcde11171/jul-to-slf4j-1.7.32-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/cdcff33940d9f2de763bc41ea05a0be5941176c3/slf4j-api-1.7.32.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/4381b152f738580aef4e436b2692a3db30609b26/slf4j-api-1.7.32-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.5.5/350511c5612eea8df4ef0f95e2c1b3ff3ea962e8/spring-boot-autoconfigure-2.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.5.5/160d993914c52b82b5d86ef8fbb5a55fddfa243e/spring-boot-autoconfigure-2.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.5.5/62cb2f7a5d92787c37d9ed2aabbc4b6d1eb18eef/spring-boot-actuator-2.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.5.5/3139435ac59e8090d11fa9449e0bc9d877cc4ffb/spring-boot-actuator-2.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.5.5/c6335b6e1aff79b13565890ad833bb8865ae2d50/spring-boot-2.5.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.5.5/6ca9c88851d97c314e35107d0dbce314459c8ee6/spring-boot-2.5.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.5/59eb84ee0d616332ff44aba065f3888cf002cd2d/jakarta.annotation-api-1.3.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.5/1ad35f11d17abb52426bfe15ea7b4c583795012/jakarta.annotation-api-1.3.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.3.10/45945cec4c23de39faf98139ad81b59965014ff0/spring-context-5.3.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.3.10/8d6a3e906fee80bad904bae643973781cd4cc881/spring-context-5.3.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.3.10/de0e0c07193697df7ba5db6086020447fdbcb24d/spring-aop-5.3.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.3.10/a21abb5a4201af9b7879d30ca2743c6aab9f8da8/spring-aop-5.3.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.3.10/1ff16eb107dd0411deaffa236467efed44d65c60/spring-beans-5.3.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.3.10/ea54725835f96417a0c3aeb7202aeb62909137fd/spring-beans-5.3.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.3.10/7ca7f1b5f7a2a9e335f45ffaeb59995c8ab344bc/spring-expression-5.3.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.3.10/7cfec30b2e1a820e8ba848492a9e3de03d9e9fb5/spring-expression-5.3.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.3.10/4e0b94b1e2d7a7399ecedef03dd676c34133625e/spring-core-5.3.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.3.10/eada1c96855a2930c87451ee190aa587452cb0c2/spring-core-5.3.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.28/7cae037c3014350c923776548e71c9feb7a69259/snakeyaml-1.28.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.28/1df44bcfb045ca926511dae52d4857b8b3721d31/snakeyaml-1.28-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.12/6eb7552156e0d517ae80cc2247be1427c8d90452/HdrHistogram-2.1.12.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.12/d8cf7bad79ef75fd41395c5f464ea38777463d95/HdrHistogram-2.1.12-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.12.5/a0a9870b681a72789c5c6bdc380e45ab719c6aa3/jackson-datatype-jsr310-2.12.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.12.5/14b932bd228cec2eac41a43303d4bbfb6dff9074/jackson-datatype-jsr310-2.12.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.12.5/2c85c2036d0851425a260c01eb5f7ddbed1eeb00/jackson-module-parameter-names-2.12.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.12.5/89a31286d3a300d619dac1237a8d1f3e03538b51/jackson-module-parameter-names-2.12.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.12.5/52d929d5bb21d0186fe24c09624cc3ee4bafc3b3/jackson-annotations-2.12.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.12.5/594b99ba0f5e72701599103f446d4a47cd7675b1/jackson-annotations-2.12.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-s3/1.11.792/e30d3f0aa9ac2ca0d8c16f94344cbac4b121b3f5/aws-java-sdk-s3-1.11.792.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-s3/1.11.792/c14b9eb8df63fd645965b6d7636425f7f4978b91/aws-java-sdk-s3-1.11.792-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ec2/1.11.792/48da18a2cf90a25ccd957730555f675d3c307618/aws-java-sdk-ec2-1.11.792.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ec2/1.11.792/cf77d2dd2c6a155491df5792a513532065292d4/aws-java-sdk-ec2-1.11.792-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudformation/1.11.792/8062fe8b90d491eb6edea432cfcdc12c17ab613d/aws-java-sdk-cloudformation-1.11.792.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudformation/1.11.792/b2c687dbd3d8ad31e1c9b839ce6fa23e246fb257/aws-java-sdk-cloudformation-1.11.792-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-kms/1.11.792/f1be0a48b97061850387a0c25a462a2b21d0fec0/aws-java-sdk-kms-1.11.792.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-kms/1.11.792/b53c6c522dfeb76f2a52575a506374fc6104eea8/aws-java-sdk-kms-1.11.792-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.11.1034/2da80bc430ce8a8b01b07932c2af4edb7ef862cc/aws-java-sdk-core-1.11.1034.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.11.1034/7ed42a6865907909ef046efb58652cb947694df5/aws-java-sdk-core-1.11.1034-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.12.5/2b6f24ee5ac7cde7f5a4e574bd0af4a72ecb55f6/jackson-dataformat-cbor-2.12.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.12.5/351c29ccd55f28c8de986b937883b631a5d2a514/jackson-dataformat-cbor-2.12.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.12.5/725e364cc71b80e60fa450bd06d75cdea7fb2d59/jackson-core-2.12.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.12.5/c85582cc77d4383286bad26c10ef4ed87d13e46a/jackson-core-2.12.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.12.5/6b2f79547d217ad50dfc5b57af7444a3aa583b43/jackson-datatype-jdk8-2.12.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.12.5/81a094853eb3f94bce4bac2f50b4cbf530f6e5fb/jackson-datatype-jdk8-2.12.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/jmespath-java/1.11.1034/dbcb869964e4ec85d601eb9fbdd366a4dae53d10/jmespath-java-1.11.1034.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.amazonaws/jmespath-java/1.11.1034/a3ac39c5939618c9cdd3f5cdf2a212553e356390/jmespath-java-1.11.1034-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.12.5/b064cf057f23d3d35390328c5030847efeffedde/jackson-databind-2.12.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.12.5/485c92bdef6ee7b1b2090c045dea943a9c7b8f8c/jackson-databind-2.12.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/9.0.53/e73e461aa0da6a1779bba31f90011cfbd4e4233/tomcat-embed-websocket-9.0.53.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/9.0.53/fa91b6789fe4b32661b89123c6b7b3648ca49967/tomcat-embed-websocket-9.0.53-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.53/3343c5ebe9e66da2f75436569e371920e8db1d55/tomcat-embed-core-9.0.53.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.53/8cf944ea1a6aed5b0175eeb2a17ea608e7f0bc1b/tomcat-embed-core-9.0.53-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/9.0.53/d2fcc31c3ffad7227fcb14ebffc1ed1ab8b7494/tomcat-embed-el-9.0.53.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/9.0.53/f0efb262273c2464136f220faed0d8ff0a0dcd2/tomcat-embed-el-9.0.53-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.3.10/747a2d6ba0d8a74c4f90a8c66c221e3084e864ee/spring-jcl-5.3.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.3.10/da6c4397528c750ee8bc1afe29d09371057527c0/spring-jcl-5.3.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada/httpclient-4.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/9654e91a61d7662c36be6710ef8e720c0e3f9807/httpclient-4.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/843bc57fd042051e994846da8167bb7ca677a6d/commons-codec-1.15-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/software.amazon.ion/ion-java/1.0.2/ee9dacea7726e495f8352b81c12c23834ffbc564/ion-java-1.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/software.amazon.ion/ion-java/1.0.2/3077203a7e79dd126a480da0491ec60238bbb872/ion-java-1.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.1/f5bfc718c95a7b1d3c371bb02a188a4df18361a9/joda-time-2.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.1/bf0996237b66ce00cd3132af179612df02ff9771/joda-time-2.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.6/25be1abb32e870ff042e698a799b56587e0dca9a/logback-core-1.2.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.6/2c59d37fdc293ee9329ebb0bb22bc709eafa1f56/logback-core-1.2.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.14.1/cd8858fbbde69f46bce8db1152c18a43328aae78/log4j-api-2.14.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.14.1/b2327c47ca413c1ec183575b19598e281fcd74d8/log4j-api-2.14.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.14/9dd1a631c082d92ecd4bd8fd4cf55026c720a8c1/httpcore-4.4.14.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.14/9d3e55f73fedca10282469031cf6bc3a69e36711/httpcore-4.4.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/769c0b82cb2421c8256300e907298a9410a2a3d3/LatencyUtils-2.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/fbc38259e2077a428984637d811dac542a6a913e/LatencyUtils-2.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/769c0b82cb2421c8256300e907298a9410a2a3d3/LatencyUtils-2.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/yoda/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/fbc38259e2077a428984637d811dac542a6a913e/LatencyUtils-2.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+  <component name="ModuleRootManager"/>
+</module>
